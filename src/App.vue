@@ -236,11 +236,15 @@
             
             <!-- 来源信息 -->
             <div class="modal-source-box">
-              <p class="modal-tip">📖 本文为DentTech聚视界daily精选内容，来源：{{ detailItem.source }}。更多行业资讯持续更新中，敬请关注。</p>
-              <a v-if="detailItem.sourceUrl" :href="detailItem.sourceUrl" target="_blank" rel="noopener" class="source-link">
-                <span>🔗 阅读原文</span>
-                <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M7 17L17 7M17 7H7M17 7V17"/></svg>
-              </a>
+              <p class="modal-tip">📖 本文内容来源：{{ detailItem.source }}。转载/引用请保留来源信息。</p>
+              <div class="source-ref-row">
+                <span class="ref-label">📚 参考文献</span>
+                <a v-if="detailItem.sourceUrl" :href="detailItem.sourceUrl" target="_blank" rel="noopener" class="source-link">
+                  <span>🔗 查看来源</span>
+                  <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M7 17L17 7M17 7H7M17 7V17"/></svg>
+                </a>
+                <span v-else class="no-source">暂无公开链接</span>
+              </div>
             </div>
 
             <!-- Giscus Comment Section -->
@@ -1006,7 +1010,10 @@ function getCategoryLabel(cat) {
   transform: translate(2px, -2px);
 }
 .modal-divider { height: 1px; background: var(--border); margin-bottom: 20px; }
-.modal-tip { font-size: 13px; color: var(--text-secondary); background: var(--bg); padding: 14px 16px; border-radius: 8px; line-height: 1.6; margin: 0; }
+.modal-tip { font-size: 13px; color: var(--text-secondary); background: var(--bg); padding: 14px 16px; border-radius: 8px; line-height: 1.6; margin: 0 0 12px 0; }
+.source-ref-row { display: flex; align-items: center; gap: 12px; flex-wrap: wrap; }
+.ref-label { font-size: 12px; font-weight: 700; color: var(--text-secondary); letter-spacing: 0.05em; text-transform: uppercase; }
+.no-source { font-size: 13px; color: var(--text-secondary); font-style: italic; }
 
 /* ===== Footer ===== */
 .footer { background: #042f34; color: rgba(255,255,255,0.7); padding: 40px 24px 0; }
