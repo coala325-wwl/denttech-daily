@@ -222,9 +222,26 @@
             </div>
           </div>
           <div class="modal-body">
-            <p class="modal-summary">{{ detailItem.summary }}</p>
+            <!-- 完整内容 -->
+            <div class="modal-full-content" v-if="detailItem.fullContent">
+              <div class="content-paragraphs">
+                <p v-for="(para, idx) in detailItem.fullContent.split('\n\n')" :key="idx" class="content-para">
+                  {{ para }}
+                </p>
+              </div>
+            </div>
+            <p v-else class="modal-summary">{{ detailItem.summary }}</p>
+            
             <div class="modal-divider"></div>
-            <p class="modal-tip">📖 本文为DentTech聚视界daily精选内容，来源：{{ detailItem.source }}。更多行业资讯持续更新中，敬请关注。</p>
+            
+            <!-- 来源信息 -->
+            <div class="modal-source-box">
+              <p class="modal-tip">📖 本文为DentTech聚视界daily精选内容，来源：{{ detailItem.source }}。更多行业资讯持续更新中，敬请关注。</p>
+              <a v-if="detailItem.sourceUrl" :href="detailItem.sourceUrl" target="_blank" rel="noopener" class="source-link">
+                <span>🔗 阅读原文</span>
+                <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M7 17L17 7M17 7H7M17 7V17"/></svg>
+              </a>
+            </div>
 
             <!-- Giscus Comment Section -->
             <div class="modal-comments">
@@ -938,6 +955,56 @@ function getCategoryLabel(cat) {
 .modal-info { display: flex; gap: 16px; font-size: 13px; color: var(--text-secondary); flex-wrap: wrap; }
 .modal-body { padding: 24px 28px 28px; }
 .modal-summary { font-size: 15px; color: var(--text); line-height: 1.8; margin: 0 0 20px; }
+
+/* Full Content */
+.modal-full-content { margin-bottom: 20px; }
+.content-paragraphs { display: flex; flex-direction: column; gap: 16px; }
+.content-para {
+  font-size: 15px;
+  color: var(--text);
+  line-height: 1.9;
+  margin: 0;
+  text-align: justify;
+}
+
+/* Source Box */
+.modal-source-box {
+  background: var(--bg);
+  border-radius: var(--radius-sm);
+  padding: 16px 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+.modal-source-box .modal-tip {
+  background: transparent;
+  padding: 0;
+  margin: 0;
+}
+.source-link {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  align-self: flex-start;
+  padding: 8px 16px;
+  background: var(--primary);
+  color: white;
+  text-decoration: none;
+  border-radius: 8px;
+  font-size: 13px;
+  font-weight: 600;
+  transition: all 0.2s;
+}
+.source-link:hover {
+  background: var(--primary-dark);
+  transform: translateY(-1px);
+}
+.source-link svg {
+  transition: transform 0.2s;
+}
+.source-link:hover svg {
+  transform: translate(2px, -2px);
+}
 .modal-divider { height: 1px; background: var(--border); margin-bottom: 20px; }
 .modal-tip { font-size: 13px; color: var(--text-secondary); background: var(--bg); padding: 14px 16px; border-radius: 8px; line-height: 1.6; margin: 0; }
 
