@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0"
+  xmlns:atom="http://www.w3.org/2005/Atom"
+  xmlns:content="http://purl.org/rss/1.0/modules/content/"
+  xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <channel>
+    <title>DentTech聚视界daily</title>
+    <link>https://wonderful-croissant-b3d86f.netlify.app</link>
+    <description>聚焦全球口腔医疗/牙科器械行业资讯，追踪产品创新、技术趋势与市场动态。</description>
+    <language>zh-CN</language>
+    <managingEditor>CCDentTech团队</managingEditor>
+    <webMaster>CCDentTech团队</webMaster>
+    <lastBuildDate>Fri, 10 Jul 2026 10:53:41 GMT</lastBuildDate>
+    <atom:link href="https://wonderful-croissant-b3d86f.netlify.app/feed.xml" rel="self" type="application/rss+xml"/>
+    <image>
+      <url>https://wonderful-croissant-b3d86f.netlify.app/favicon.svg</url>
+      <title>DentTech聚视界daily</title>
+      <link>https://wonderful-croissant-b3d86f.netlify.app</link>
+    </image>
+    <item>
+      <title>国产种植牙集采加速推进，终端价格降幅有望超60%</title>
+      <link>https://wonderful-croissant-b3d86f.netlify.app/#news-1</link>
+      <guid isPermaLink="false">denttech-daily-1</guid>
+      <description>多省种植牙联盟集采进入实质阶段，公立医院与民营机构同步纳入，单颗种植牙费用将大幅下降，患者受益明显。</description>
+      <pubDate>Wed, 08 Jul 2026 00:00:00 GMT</pubDate>
+      <author>CCDentTech团队</author>
+      <category>[国内] 产品 · 集采</category>
+    </item>
+    <item>
+      <title>本土品牌「瑞鲨口腔」发布新一代CBCT影像系统，分辨率达0.075mm</title>
+      <link>https://wonderful-croissant-b3d86f.netlify.app/#news-2</link>
+      <guid isPermaLink="false">denttech-daily-2</guid>
+      <description>瑞鲨口腔科技推出自主研发的口腔CBCT，参数性能对标国际一线品牌，定价仅为进口产品的40%，已进入多家三甲医院测试。</description>
+      <pubDate>Tue, 07 Jul 2026 00:00:00 GMT</pubDate>
+      <author>CCDentTech团队</author>
+      <category>[国内] 产品 · 影像设备</category>
+    </item>
+    <item>
+      <title>AI口腔诊断大模型「齿博士」通过三类医疗器械注册审评</title>
+      <link>https://wonderful-croissant-b3d86f.netlify.app/#news-3</link>
+      <guid isPermaLink="false">denttech-daily-3</guid>
+      <description>国内首个AI口腔辅助诊断系统获得NMPA三类证，可自动识别20余种口腔疾病，敏感性与资深口腔医师持平。</description>
+      <pubDate>Mon, 06 Jul 2026 00:00:00 GMT</pubDate>
+      <author>CCDentTech团队</author>
+      <category>[国内] 技术 · AI诊断</category>
+    </item>
+    <item>
+      <title>3D打印个性化钛合金种植体纳入优先审批通道</title>
+      <link>https://wonderful-croissant-b3d86f.netlify.app/#news-4</link>
+      <guid isPermaLink="false">denttech-daily-4</guid>
+      <description>国家药监局器械审评中心公示，定制化3D打印牙科植入物可走优先审批，平均审批周期从18个月压缩至6~9个月。</description>
+      <pubDate>Sun, 05 Jul 2026 00:00:00 GMT</pubDate>
+      <author>CCDentTech团队</author>
+      <category>[国内] 技术 · 3D打印</category>
+    </item>
+    <item>
+      <title>2025年中国口腔医疗服务市场规模突破2000亿元</title>
+      <link>https://wonderful-croissant-b3d86f.netlify.app/#news-5</link>
+      <guid isPermaLink="false">denttech-daily-5</guid>
+      <description>艾媒咨询发布报告，2025年国内口腔医疗服务市场规模达2130亿元，连锁口腔诊所数量同比增长23%，资本加速布局。</description>
+      <pubDate>Sat, 04 Jul 2026 00:00:00 GMT</pubDate>
+      <author>CCDentTech团队</author>
+      <category>[国内] 行业 · 市场</category>
+    </item>
+    <item>
+      <title>通策医疗、瑞尔集团等头部连锁加速下沉二三线城市</title>
+      <link>https://wonderful-croissant-b3d86f.netlify.app/#news-6</link>
+      <guid isPermaLink="false">denttech-daily-6</guid>
+      <description>受一二线城市竞争加剧影响，多家大型口腔连锁机构宣布下沉战略，计划未来3年内在200个县级市开设分院。</description>
+      <pubDate>Fri, 03 Jul 2026 00:00:00 GMT</pubDate>
+      <author>CCDentTech团队</author>
+      <category>[国内] 行业 · 连锁扩张</category>
+    </item>
+    <item>
+      <title>正雅齿科发布日夜双阶段儿童早期矫正隐形矫治器</title>
+      <link>https://wonderful-croissant-b3d86f.netlify.app/#news-7</link>
+      <guid isPermaLink="false">denttech-daily-7</guid>
+      <description>正雅推出针对6~12岁儿童的日夜分离式隐形矫治器，日间轻力矫治+夜间深度加力组合，提高儿童佩戴依从性。</description>
+      <pubDate>Thu, 02 Jul 2026 00:00:00 GMT</pubDate>
+      <author>CCDentTech团队</author>
+      <category>[国内] 产品 · 隐形矫正</category>
+    </item>
+    <item>
+      <title>解放军总医院完成首例5G远程口腔种植机器人手术</title>
+      <link>https://wonderful-croissant-b3d86f.netlify.app/#news-8</link>
+      <guid isPermaLink="false">denttech-daily-8</guid>
+      <description>通过5G低延迟网络，解放军总医院口腔科医生远程操控手术机器人，为3000公里外患者成功完成下半口种植手术。</description>
+      <pubDate>Wed, 01 Jul 2026 00:00:00 GMT</pubDate>
+      <author>CCDentTech团队</author>
+      <category>[国内] 技术 · 远程医疗</category>
+    </item>
+    <item>
+      <title>Straumann Group推出全新BLX种植系统， osseointegration时间缩短30%</title>
+      <link>https://wonderful-croissant-b3d86f.netlify.app/#news-9</link>
+      <guid isPermaLink="false">denttech-daily-9</guid>
+      <description>瑞士Straumann发布第四代种植体平台，采用Roxolid®专利材质与SLActive®表面处理技术，术后愈合期大幅缩短，已获FDA和CE认证。</description>
+      <pubDate>Thu, 09 Jul 2026 00:00:00 GMT</pubDate>
+      <author>CCDentTech团队</author>
+      <category>[国际] 产品 · 种植系统</category>
+    </item>
+    <item>
+      <title>Align Technology收购Byte，扩充隐形矫正产品矩阵</title>
+      <link>https://wonderful-croissant-b3d86f.netlify.app/#news-10</link>
+      <guid isPermaLink="false">denttech-daily-10</guid>
+      <description>Invisalign母公司Align宣布收购 direct-to-consumer 隐形矫正品牌Byte，进军中低端市场，交易金额约3.8亿美元。</description>
+      <pubDate>Wed, 08 Jul 2026 00:00:00 GMT</pubDate>
+      <author>CCDentTech团队</author>
+      <category>[国际] 产品 · 并购</category>
+    </item>
+    <item>
+      <title>MIT研发可降解镁合金口腔止血夹，术后无需二次取出</title>
+      <link>https://wonderful-croissant-b3d86f.netlify.app/#news-11</link>
+      <guid isPermaLink="false">denttech-daily-11</guid>
+      <description>MIT生物工程团队开发出基于镁合金的可降解手术止血夹，专为口腔颌面外科设计，在体内6~8周完全降解，无需二次手术取出。</description>
+      <pubDate>Tue, 07 Jul 2026 00:00:00 GMT</pubDate>
+      <author>CCDentTech团队</author>
+      <category>[国际] 技术 · 生物材料</category>
+    </item>
+    <item>
+      <title>日本松风发布新型纳米树脂材料，边缘密封性提升至99.2%</title>
+      <link>https://wonderful-croissant-b3d86f.netlify.app/#news-12</link>
+      <guid isPermaLink="false">denttech-daily-12</guid>
+      <description>日本松风齿科材料公司推出Giomer系列新型纳米混合树脂，填料分布均匀度优化，边缘密封性实验数据达99.2%，适用于前后牙直接修复。</description>
+      <pubDate>Mon, 06 Jul 2026 00:00:00 GMT</pubDate>
+      <author>CCDentTech团队</author>
+      <category>[国际] 技术 · 修复材料</category>
+    </item>
+    <item>
+      <title>韩国 Osstem 推出AI种植手术规划软件，15秒自动生成最优方案</title>
+      <link>https://wonderful-croissant-b3d86f.netlify.app/#news-13</link>
+      <guid isPermaLink="false">denttech-daily-13</guid>
+      <description>Osstem Implant发布内置AI算法的种植手术规划平台，上传CBCT数据后15秒内自动输出种植位点、角度、深度建议，准确率较传统方案提升18%。</description>
+      <pubDate>Sun, 05 Jul 2026 00:00:00 GMT</pubDate>
+      <author>CCDentTech团队</author>
+      <category>[国际] 技术 · AI规划</category>
+    </item>
+    <item>
+      <title>全球牙科器械市场2025年达180亿美元，复合增长率6.2%</title>
+      <link>https://wonderful-croissant-b3d86f.netlify.app/#news-14</link>
+      <guid isPermaLink="false">denttech-daily-14</guid>
+      <description>EvaluateMedTech与Fortune Business Insights联合报告，2025年全球牙科器械市场规模约180亿美元，数字化诊疗设备是最大增长引擎。</description>
+      <pubDate>Sat, 04 Jul 2026 00:00:00 GMT</pubDate>
+      <author>CCDentTech团队</author>
+      <category>[国际] 行业 · 全球市场</category>
+    </item>
+    <item>
+      <title>美国AAE发布根管治疗新指南，强调CBCT必需性</title>
+      <link>https://wonderful-croissant-b3d86f.netlify.app/#news-15</link>
+      <guid isPermaLink="false">denttech-daily-15</guid>
+      <description>美国牙髓病学会（AAE）更新临床指南，建议复杂根管病例术前均需CBCT扫描评估，并将数字化导航技术纳入推荐操作流程。</description>
+      <pubDate>Fri, 03 Jul 2026 00:00:00 GMT</pubDate>
+      <author>CCDentTech团队</author>
+      <category>[国际] 行业 · 临床指南</category>
+    </item>
+    <item>
+      <title>Envista(卡瓦集团)发布KaVo DIAGNOCAM Pro 2.0龋齿探测仪</title>
+      <link>https://wonderful-croissant-b3d86f.netlify.app/#news-16</link>
+      <guid isPermaLink="false">denttech-daily-16</guid>
+      <description>Envista旗下KaVo推出第五代龋齿探测仪，采用红外透照原理，无需X射线即可早期发现邻面龋，灵敏度达94%，已获FDA 510(k)批准。</description>
+      <pubDate>Thu, 02 Jul 2026 00:00:00 GMT</pubDate>
+      <author>CCDentTech团队</author>
+      <category>[国际] 产品 · 龋齿探测</category>
+    </item>
+  </channel>
+</rss>
